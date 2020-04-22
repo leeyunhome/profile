@@ -1,4 +1,10 @@
 import React from 'react';
+import imgA from './img/camera.jpg';
+import imgB from './img/fog.jpg';
+import imgC from './img/tx2.jpg';
+import imgD from './img/video2.jpg';
+import imgE from './img/video3.jpg';
+import imgF from './img/xavier.jpg';
 
 const data = {
     neuezeal: {
@@ -19,6 +25,13 @@ const Profile = ({ match }) => {
                 {username}({profile.name})
             </h3>
             <p>{profile.name}</p>
+            <img src={imgB} width="100%" />
+            <img src={imgA} width="100%" />
+            <img src={imgC} width="100%" />
+            <img src={imgD} width="100%" />
+            <img src={imgE} width="100%" />
+            <img src={imgF} width="100%" />
+
         </div>
     );
 };
